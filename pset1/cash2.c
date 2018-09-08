@@ -32,7 +32,7 @@ int main (void)
         
         
     }else if (change>15&&change<20){
-        printf("%i\na nickel\na dime\n",change-15);
+        printf("%i penny\na nickel\na dime\n",change-15);
         
         
     }else if (change==20){
@@ -40,7 +40,7 @@ int main (void)
         
         
     }else if (change>20&&change<25){
-        printf("%i\n2 dime\n",change-20);
+        printf("%i penny\n2 dime\n",change-20);
         
         
     }else if (change==25){
@@ -84,7 +84,7 @@ int main (void)
         
         
         }  else if (c1r>20&&c1r<25){
-           printf("%i\n2 dime\n",c1r-20);
+           printf("%i penny\n2 dime\n",c1r-20);
     }
     }
   
