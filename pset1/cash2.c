@@ -4,7 +4,7 @@ int main (void)
 {
     
     float changeowed = get_float("change owed : ");
-    int change = changeowed*100 ;
+     int change = (changeowed+0.001) * 100 ; 
     
     
     if (change<5)
