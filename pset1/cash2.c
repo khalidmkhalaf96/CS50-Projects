@@ -76,7 +76,7 @@ int main (void)
         
         
         }  else if (c1r>15&&c1r<20){
-           printf("%i\na nickel\na dime\n",c1r-15);
+           printf("%i penny\na nickel\na dime\n",c1r-15);
         
         
         }  else if (c1r==20){
