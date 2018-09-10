@@ -10,8 +10,8 @@ int main (void)
     }
     while (changeowed<0);
     
-       ;
-    int change = (changeowed+0.001) * 100 ;  
+       int change = round(changeowed*100) ;
+    
   
 
 
